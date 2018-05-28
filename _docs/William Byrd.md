@@ -1,6 +1,6 @@
 ---
 title: William Byrd
-permalink: data/williambyrd/
+permalink: docs/williambyrd/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

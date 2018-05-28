@@ -1,6 +1,6 @@
 ---
 title: Massachusettes Historical Society
-permalink: data/mhs/
+permalink: docs/mhs/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

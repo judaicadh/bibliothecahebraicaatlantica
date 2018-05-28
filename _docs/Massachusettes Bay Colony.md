@@ -1,6 +1,6 @@
 ---
 title: Massachusettes Bay Colony
-permalink: data/mbc/
+permalink: docs/mbc/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
