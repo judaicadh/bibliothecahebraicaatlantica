@@ -4,7 +4,7 @@ email: judaicadh@gmail.com
 description: >
   Biblio Hebraica Atlantica
 
-baseurl: /bibliohebraicaatlantica # the subpath of your site, e.g. /blog/
+baseurl: /bibliohebraicaatlantica/ # the subpath of your site, e.g. /blog/
 url: https://judaica.github.io # the base hostname & protocol for your site
 
 
