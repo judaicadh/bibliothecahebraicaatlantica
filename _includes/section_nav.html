@@ -11,7 +11,7 @@ next, lets build a link to it.
 {% endcomment %}
 
 {% for document in docs %}
-  {% assign document_url = document | prepend:"/data/" | append:"/" %}
+  {% assign document_url = document | prepend:"/docs/" | append:"/" %}
   {% if document_url == page.url %}
     <ul class="pager">
       {% if forloop.first %}
@@ -38,7 +38,7 @@ next, lets build a link to it.
         </li>
       {% else %}
         {% assign next = forloop.index0 | plus: 1 %}
-        {% assign next_page = docs[next] | prepend:"/data/" | append:"/" %}
+        {% assign next_page = docs[next] | prepend:"/docs/" | append:"/" %}
         <li class="next">
           <a href="{{ next_page | prepend: site.baseurl }}">
             Next <span aria-hidden="true">&rarr;</span>

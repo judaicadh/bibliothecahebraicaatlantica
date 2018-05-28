@@ -4,8 +4,8 @@ email: judaicadh@gmail.com
 description: >
   Biblio Hebraica Atlantica
 
-baseurl: "/bibliohebraicaatlantica/" # the subpath of your site, e.g. /blog/
-url: https://judaica.github.io/bibliohebraicaatlantica # the base hostname & protocol for your site
+baseurl: /bibliohebraicaatlantica # the subpath of your site, e.g. /blog/
+url: https://judaica.github.io # the base hostname & protocol for your site
 
 
 # theme options from https://bootswatch.com/
@@ -42,7 +42,7 @@ defaults:
     type: docs
   values:
     layout: docs
-    sectionid: docs
+    sectionid: data
     seo:
       type: "WebPage"
 
