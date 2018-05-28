@@ -1,6 +1,6 @@
 ---
-title: Customization
-permalink: /docs/customization/
+title: George Washington
+permalink: /data/georgewashington/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

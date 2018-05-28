@@ -1,6 +1,6 @@
 ---
-title: Customization
-permalink: /docs/customization/
+title: Massachusettes Historical Society
+permalink: /data/mhs/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

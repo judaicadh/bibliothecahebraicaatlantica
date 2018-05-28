@@ -1,6 +1,6 @@
 ---
-title: Customization
-permalink: /docs/customization/
+title: Benjamin Franklin
+permalink: /data/benjaminfranklin/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

@@ -4,7 +4,7 @@ email: judaicadh@gmail.com
 description: >
   Biblio Hebraica Atlantica
 
-baseurl: "/bibliohebraicaatlantica" # the subpath of your site, e.g. /blog/
+baseurl: "/bibliohebraicaatlantica/" # the subpath of your site, e.g. /blog/
 url: https://judaica.github.io/bibliohebraicaatlantica # the base hostname & protocol for your site
 
 
@@ -20,6 +20,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+
 
 exclude:
   - Gemfile
