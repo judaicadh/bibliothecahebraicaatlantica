@@ -36,8 +36,8 @@
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "George Washington",
+      "url": "/bibliohebraicaatlantica/docs/georgewashington/"
 
     },
   
@@ -60,8 +60,16 @@
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "Jonathan Edwards",
+      "url": "/bibliohebraicaatlantica/docs/jonathanedwards/"
+
+    },
+  
+    
+    
+    {
+      "title": "Massachusettes Bay Colony",
+      "url": "/bibliohebraicaatlantica/docs/mbc/"
 
     },
   
@@ -76,48 +84,40 @@
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "Richard Mather",
+      "url": "/bibliohebraicaatlantica/docs/richardmather/"
 
     },
   
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "Thomas Jefferson",
+      "url": "/bibliohebraicaatlantica/docs/thomasjefferson/"
 
     },
   
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "William Byrd",
+      "url": "/bibliohebraicaatlantica/docs/williambyrd/"
 
     },
   
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "Yale",
+      "url": "/bibliohebraicaatlantica/docs/yale/"
 
     },
   
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
-
-    },
-  
-    
-    
-    {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
+      "title": "Yale Uncertain",
+      "url": "/bibliohebraicaatlantica/docs/yaleuncertain/"
 
     },
   
