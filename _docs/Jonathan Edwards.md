@@ -1,6 +1,6 @@
 ---
 title: Jonathan Edwards
-permalink: docs/jonathanedwards/
+permalink: /docs/jonathanedwards/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

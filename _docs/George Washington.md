@@ -1,6 +1,6 @@
 ---
 title: George Washington
-permalink: docs/georgewashington/
+permalink: /docs/georgewashington/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

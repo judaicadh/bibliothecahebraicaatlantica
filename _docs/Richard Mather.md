@@ -1,6 +1,6 @@
 ---
 title: Richard Mather
-permalink: docs/richardmather/
+permalink: /docs/richardmather/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

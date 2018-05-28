@@ -1,6 +1,6 @@
 ---
 title: Thomas Jefferson
-permalink: docs/thomasjefferson/
+permalink: /docs/thomasjefferson/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
