@@ -1,6 +1,6 @@
 ---
 title: Yale Uncertain
-permalink: /data/yaleuncertain/
+permalink: data/yaleuncertain/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

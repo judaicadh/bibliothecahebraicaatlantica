@@ -1,6 +1,6 @@
 ---
 title: John Adams
-permalink: /data/johnadams
+permalink: data/johnadams
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

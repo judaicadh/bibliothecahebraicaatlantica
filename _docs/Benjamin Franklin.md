@@ -1,6 +1,6 @@
 ---
 title: Benjamin Franklin
-permalink: /data/benjaminfranklin/
+permalink: data/benjaminfranklin/
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

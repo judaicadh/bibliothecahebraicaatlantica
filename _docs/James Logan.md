@@ -1,6 +1,6 @@
 ---
 title: James Logan
-permalink: /data/jameslogan
+permalink: data/jameslogan
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
