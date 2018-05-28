@@ -5,7 +5,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -13,7 +13,7 @@
     
     {
       "title": "Themes",
-      "url": "/bibliohebraicaatlantica//docs/themes/"
+      "url": "/bibliohebraicaatlantica/docs/themes/"
 
     },
   
@@ -21,7 +21,7 @@
     
     {
       "title": "Customization",
-      "url": "/bibliohebraicaatlantica//docs/customization/"
+      "url": "/bibliohebraicaatlantica/docs/customization/"
 
     },
   
@@ -29,7 +29,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -37,7 +37,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -45,7 +45,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -53,7 +53,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -61,7 +61,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -69,7 +69,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -77,7 +77,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -85,7 +85,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -93,7 +93,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -101,7 +101,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -109,7 +109,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -117,7 +117,7 @@
     
     {
       "title": "",
-      "url": "/bibliohebraicaatlantica/"
+      "url": "/bibliohebraicaatlantica"
 
     },
   
@@ -127,7 +127,7 @@
     
     {
       "title": "Markdown Cheatsheet",
-      "url": "/bibliohebraicaatlantica//docs/cheatsheet/"
+      "url": "/bibliohebraicaatlantica/docs/cheatsheet/"
 
     },
   
@@ -135,7 +135,7 @@
     
     {
       "title": "Font Awesome Icon List",
-      "url": "/bibliohebraicaatlantica//docs/font-awesome/"
+      "url": "/bibliohebraicaatlantica/docs/font-awesome/"
 
     },
   
@@ -143,7 +143,7 @@
     
     {
       "title": "Bootstrap Features",
-      "url": "/bibliohebraicaatlantica//docs/bootstrap/"
+      "url": "/bibliohebraicaatlantica/docs/bootstrap/"
 
     },
   
@@ -152,12 +152,12 @@
   
   {
   "title": "Jekyll Doc Theme is published!",
-  "url": "/bibliohebraicaatlantica//blog/2017/05/03/jekyll-doc-theme/"
+  "url": "/bibliohebraicaatlantica/blog/2017/05/03/jekyll-doc-theme/"
   },
   
   {
   "title": "Welcome to Jekyll!",
-  "url": "/bibliohebraicaatlantica//blog/2017/02/01/welcome-to-jekyll/"
+  "url": "/bibliohebraicaatlantica/blog/2017/02/01/welcome-to-jekyll/"
   }
   
 ]
