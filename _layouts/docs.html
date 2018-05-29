@@ -11,7 +11,15 @@ layout: default
         <div class="col-md-8">
             <h1>{{ page.title }}</h1>
 
-            <div id="markdown-content-container"><p>{{ page.csvlink }}</p>{{ content }}</div>
+            <div id="markdown-content-container">
+            <ul>
+            <li>
+            <a target="_blank" href="{{ page.csvlink }}">Download Data</a>
+            </li>
+            <li>
+           <strong>Link to Catalogue or Reference Book Used:</strong>{{ page.textlink }}
+            </li>
+            </div>
             <p class="text-center">
               <br />
 
