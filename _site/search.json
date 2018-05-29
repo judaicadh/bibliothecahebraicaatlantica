@@ -5,7 +5,7 @@
     
     {
       "title": "Getting Started",
-      "url": "/bibliohebraicaatlantica/docs/home/"
+      "url": "/bibliahebraicaatlantica/docs/home/"
 
     },
   
@@ -13,7 +13,7 @@
     
     {
       "title": "Benjamin Franklin",
-      "url": "/bibliohebraicaatlantica/docs/benjaminfranklin/"
+      "url": "/bibliahebraicaatlantica/docs/benjaminfranklin/"
 
     },
   
@@ -21,7 +21,7 @@
     
     {
       "title": "George Washington",
-      "url": "/bibliohebraicaatlantica/docs/georgewashington/"
+      "url": "/bibliahebraicaatlantica/docs/georgewashington/"
 
     },
   
@@ -29,7 +29,7 @@
     
     {
       "title": "James Logan",
-      "url": "/bibliohebraicaatlantica/docs/jameslogan/"
+      "url": "/bibliahebraicaatlantica/docs/jameslogan/"
 
     },
   
@@ -37,7 +37,7 @@
     
     {
       "title": "John Adams",
-      "url": "/bibliohebraicaatlantica/docs/johnadams/"
+      "url": "/bibliahebraicaatlantica/docs/johnadams/"
 
     },
   
@@ -45,7 +45,7 @@
     
     {
       "title": "Jonathan Edwards",
-      "url": "/bibliohebraicaatlantica/docs/jonathanedwards/"
+      "url": "/bibliahebraicaatlantica/docs/jonathanedwards/"
 
     },
   
@@ -53,7 +53,7 @@
     
     {
       "title": "Massachusettes Bay Colony",
-      "url": "/bibliohebraicaatlantica/docs/mbc/"
+      "url": "/bibliahebraicaatlantica/docs/mbc/"
 
     },
   
@@ -61,7 +61,7 @@
     
     {
       "title": "Massachusettes Historical Society",
-      "url": "/bibliohebraicaatlantica/docs/mhs/"
+      "url": "/bibliahebraicaatlantica/docs/mhs/"
 
     },
   
@@ -69,7 +69,7 @@
     
     {
       "title": "Richard Mather",
-      "url": "/bibliohebraicaatlantica/docs/richardmather/"
+      "url": "/bibliahebraicaatlantica/docs/richardmather/"
 
     },
   
@@ -77,7 +77,7 @@
     
     {
       "title": "Thomas Jefferson",
-      "url": "/bibliohebraicaatlantica/docs/thomasjefferson/"
+      "url": "/bibliahebraicaatlantica/docs/thomasjefferson/"
 
     },
   
@@ -85,7 +85,7 @@
     
     {
       "title": "William Byrd",
-      "url": "/bibliohebraicaatlantica/docs/williambyrd/"
+      "url": "/bibliahebraicaatlantica/docs/williambyrd/"
 
     },
   
@@ -93,7 +93,7 @@
     
     {
       "title": "Yale",
-      "url": "/bibliohebraicaatlantica/docs/yale/"
+      "url": "/bibliahebraicaatlantica/docs/yale/"
 
     },
   
@@ -102,12 +102,12 @@
   
   {
   "title": "Jekyll Doc Theme is published!",
-  "url": "/bibliohebraicaatlantica/blog/2017/05/03/jekyll-doc-theme/"
+  "url": "/bibliahebraicaatlantica/blog/2017/05/03/jekyll-doc-theme/"
   },
   
   {
   "title": "Welcome to Jekyll!",
-  "url": "/bibliohebraicaatlantica/blog/2017/02/01/welcome-to-jekyll/"
+  "url": "/bibliahebraicaatlantica/blog/2017/02/01/welcome-to-jekyll/"
   }
   
 ]

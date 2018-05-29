@@ -1,1 +1,1 @@
-Sitemap: https://judaica.github.io/bibliohebraicaatlantica/sitemap.xml
+Sitemap: https://judaica.github.io/bibliahebraicaatlantica/sitemap.xml
