@@ -3,11 +3,11 @@ title: Benjamin Franklin
 permalink: /docs/benjaminfranklin/
 ---
 
-This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
-You can create your own theme by writing your own `sass` files.
+**Link to CSV:** https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Benjamin%20Franklin/WorldCat_3743313.csv
 
-Create a new a theme folder like `_sass/bootwatch/custom` and set your `bootwatch` variables in `_config.yml` to `custom`:
 
-```yaml
-bootwatch: custom
-```
+
+**Link to Catalogue or Reference Book Used:** Wolf, Edwin, and Kevin J. Hayes. 2006. *The library of Benjamin Franklin*. Philadelphia: American Philosophical Society/Library Co. of Philadelphia.
+
+
+
