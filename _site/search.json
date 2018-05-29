@@ -4,24 +4,8 @@
     
     
     {
-      "title": "",
-      "url": "/bibliohebraicaatlantica"
-
-    },
-  
-    
-    
-    {
-      "title": "Themes",
-      "url": "/bibliohebraicaatlantica/docs/themes/"
-
-    },
-  
-    
-    
-    {
-      "title": "Customization",
-      "url": "/bibliohebraicaatlantica/docs/customization/"
+      "title": "Getting Started",
+      "url": "/bibliohebraicaatlantica/docs/home/"
 
     },
   
@@ -110,14 +94,6 @@
     {
       "title": "Yale",
       "url": "/bibliohebraicaatlantica/docs/yale/"
-
-    },
-  
-    
-    
-    {
-      "title": "Yale Uncertain",
-      "url": "/bibliohebraicaatlantica/docs/yaleuncertain/"
 
     },
   

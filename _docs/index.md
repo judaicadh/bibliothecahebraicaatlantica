@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-permalink: /docs/index/
+permalink: /docs/home/
 ---
 
 ## About the Data
