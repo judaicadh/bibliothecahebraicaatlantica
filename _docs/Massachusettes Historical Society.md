@@ -1,13 +1,12 @@
 ---
 title: Massachusettes Historical Society
 permalink: /docs/mhs/
+csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Historical%20Society/WorldCat_3752085.csv
+textlink: "Massachusetts Historical Society. Library., . (1796). Catalogue of books in the Massachusetts Historical Society library. Boston: Printed by S. Hall, no. 53, Cornhill.
+"
 ---
 
-This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
-You can create your own theme by writing your own `sass` files.
+<iframe width="700" height="450" src="https://hdl.handle.net/2027/nyp.33433069263154?urlappend=%3Bui=embed"></iframe>
 
-Create a new a theme folder like `_sass/bootwatch/custom` and set your `bootwatch` variables in `_config.yml` to `custom`:
 
-```yaml
-bootwatch: custom
-```
+

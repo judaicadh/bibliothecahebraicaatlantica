@@ -1,13 +1,9 @@
 ---
 title: George Washington
 permalink: /docs/georgewashington/
+csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/George%20Washington/WorldCat_3743601.csv
+textlink:
 ---
 
-This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
-You can create your own theme by writing your own `sass` files.
 
-Create a new a theme folder like `_sass/bootwatch/custom` and set your `bootwatch` variables in `_config.yml` to `custom`:
 
-```yaml
-bootwatch: custom
-```
