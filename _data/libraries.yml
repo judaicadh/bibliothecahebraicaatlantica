@@ -1,45 +1,47 @@
-- permalink: benjaminfranklin
-  title: Benjamin Franklin
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Benjamin%20Franklin/WorldCat_3743313.csv
+library:
+  - title: Benjamin Franklin
 
-- permalink: georgewashington
-  title: George Washington
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/George%20Washington/WorldCat_3743601.csv
+    - permalink: benjaminfranklin
+    - csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Benjamin%20Franklin/WorldCat_3743313.csv
 
-- permalink: jameslogan
-  title: James Logan
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/James%20Logan/WorldCat_3742263.csv
+  - permalink: georgewashington
+    title: George Washington
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/George%20Washington/WorldCat_3743601.csv
 
-- permalink: johnadams
-  title: John Adams
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/John%20Adams/WorldCat_3740690.csv
-  textlink: "Adams, J. Quincy. (1938). A catalogue of the books of John Quincy Adams: deposited in the Boston athenæum, with notes on books, Adams seals and book-plates. Boston: Athenæum. <br /> Metcalf, E. Wight., Adams, J., Boston Public Library. Adams Collection., . (1823). Deeds and other documents relating to the several pieces of land, and to the library presented to the town of Quincy by President Adams ; together with a catalogue of the books. Cambridge [Mass.]: Printed by Hilliard and Metcalf."
+  - permalink: jameslogan
+    title: James Logan
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/James%20Logan/WorldCat_3742263.csv
 
-- permalink: jonathanedwards
-  title: Jonathan Edwards
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Jonathan%20Edwards/WorldCat_3743406.csv
+  - permalink: johnadams
+    title: John Adams
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/John%20Adams/WorldCat_3740690.csv
+    textlink: "Adams, J. Quincy. (1938). A catalogue of the books of John Quincy Adams: deposited in the Boston athenæum, with notes on books, Adams seals and book-plates. Boston: Athenæum. <br /> Metcalf, E. Wight., Adams, J., Boston Public Library. Adams Collection., . (1823). Deeds and other documents relating to the several pieces of land, and to the library presented to the town of Quincy by President Adams ; together with a catalogue of the books. Cambridge [Mass.]: Printed by Hilliard and Metcalf."
 
-- permalink: mbc
-  title: Massachusettes Bay Colony
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Bay%20Colony/WorldCat_3743242.csv
+  - permalink: jonathanedwards
+    title: Jonathan Edwards
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Jonathan%20Edwards/WorldCat_3743406.csv
 
-- permalink: mhs
-  title: Massachusettes Historical Society
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Historical%20Society/WorldCat_3752085.csv
+  - permalink: mbc
+    title: Massachusettes Bay Colony
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Bay%20Colony/WorldCat_3743242.csv
 
-- permalink: richardmather
-  title: Richard Mather
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Richard%20Mather/WorldCat_3744531.csv
+  - permalink: mhs
+    title: Massachusettes Historical Society
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Historical%20Society/WorldCat_3752085.csv
 
-- permalink: thomasjefferson
-  title: Thomas Jefferson
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Thomas%20Jefferson/WorldCat_3740637.csv
+  - permalink: richardmather
+    title: Richard Mather
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Richard%20Mather/WorldCat_3744531.csv
 
-- permalink: williambyrd
-  title: William Byrd
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/William%20Byrd/WorldCat_3742311.csv
-  textlink: "Hayes, K. J. (1997). The library of William Byrd of Westover. Madison, Wis.: Madison House."
+  - permalink: thomasjefferson
+    title: Thomas Jefferson
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Thomas%20Jefferson/WorldCat_3740637.csv
 
-- permalink: yale
-  title: Yale University
-  csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/tree/master/Yale
+  - permalink: williambyrd
+    title: William Byrd
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/William%20Byrd/WorldCat_3742311.csv
+    textlink: "Hayes, K. J. (1997). The library of William Byrd of Westover. Madison, Wis.: Madison House."
+
+  - permalink: yale
+    title: Yale University
+    csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/tree/master/Yale
