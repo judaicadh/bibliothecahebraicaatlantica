@@ -1,6 +1,9 @@
 ---
 title: Getting Started
 permalink: /docs/home/
+textlink:
+csvlink:
+category: home
 ---
 
 ## About the Data
