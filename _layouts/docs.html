@@ -12,9 +12,9 @@ layout: default
             <h1>{{ page.title }}</h1>
 
             <div id="markdown-content-container">
-{% if page.category != 'home' %}
-            <ul>
 
+            <ul>
+{% if page.category != 'home' %}
             <li>
             <a target="_blank" href="{{ page.csvlink }}">Download Data</a>
             </li>
@@ -25,7 +25,7 @@ layout: default
            <strong>Link to Catalogue or Reference Book Used:</strong>{{ page.textlink }}
 
             </li>
-
+  {% endif %}
             </ul>
             <p>{{ page.content }}
             </p>
@@ -36,8 +36,9 @@ layout: default
             </p>
             <hr>
             {% include section_nav.html %}
-            {% endif %}
+
         </div>
+
 
     </div>
 </div>
