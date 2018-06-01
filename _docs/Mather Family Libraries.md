@@ -1,6 +1,6 @@
 ---
-title: Richard Mather
-permalink: /docs/richardmather/
+title: Mather Family Libraries
+permalink: /docs/matherfamilylibraries/
 csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Richard%20Mather/WorldCat_3744531.csv
 textlink: "Tuttle, J. Herbert. (1910). The libraries of the Mathers. Worcester, Mass.: Davis Press."
 ---
