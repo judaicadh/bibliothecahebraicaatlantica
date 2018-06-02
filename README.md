@@ -1,2 +1,2 @@
 # Bibliotheca Hebraica Atlantica
-Tracking Libraries that Contain Hebrew Books in the Atlantic World
+Tracking Libraries that Contain Books with Hebrew in the Atlantic World
