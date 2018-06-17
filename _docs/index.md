@@ -8,7 +8,7 @@ category: home
 
 ## About the Data
 
-If you are interested exploring the data immediately, use the left hand bar to navigate to the different datasets we have created for the different libraries listed. 
+If you are interested in exploring the data immediately, use the left hand bar to navigate to the different datasets we have created for the different libraries listed. 
 
 If you are interested in our methodology for creating the data, please read below:   
 
