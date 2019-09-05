@@ -1,1 +1,1 @@
-Sitemap: https://judaica.github.io/bibliothecahebraicaatlantica/sitemap.xml
+Sitemap: http://localhost:4000/bibliothecahebraicaatlantica/sitemap.xml

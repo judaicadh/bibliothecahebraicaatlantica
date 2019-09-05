@@ -20,18 +20,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="About the Data" />
 <meta property="og:description" content="About the Data" />
-<link rel="canonical" href="https://judaica.github.io/bibliothecahebraicaatlantica/docs/home/" />
-<meta property="og:url" content="https://judaica.github.io/bibliothecahebraicaatlantica/docs/home/" />
+<link rel="canonical" href="http://localhost:4000/bibliothecahebraicaatlantica/docs/home/" />
+<meta property="og:url" content="http://localhost:4000/bibliothecahebraicaatlantica/docs/home/" />
 <meta property="og:site_name" content="Bibliotheca Hebraica Atlantica" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-06-01T18:25:02+00:00" />
+<meta property="article:published_time" content="2019-09-05T20:25:07+00:00" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"Getting Started","datePublished":"2018-06-01T18:25:02+00:00","dateModified":"2018-06-01T18:25:02+00:00","description":"About the Data","url":"https://judaica.github.io/bibliothecahebraicaatlantica/docs/home/"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"Getting Started","datePublished":"2019-09-05T20:25:07+00:00","dateModified":"2019-09-05T20:25:07+00:00","description":"About the Data","url":"http://localhost:4000/bibliothecahebraicaatlantica/docs/home/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-    <link rel="canonical" href="https://judaica.github.io/bibliothecahebraicaatlantica/docs/home/">
-    <link rel="alternate" type="application/rss+xml" title="Bibliotheca Hebraica Atlantica" href="https://judaica.github.io/bibliothecahebraicaatlantica/feed.xml" />
+    <link rel="canonical" href="http://localhost:4000/bibliothecahebraicaatlantica/docs/home/">
+    <link rel="alternate" type="application/rss+xml" title="Bibliotheca Hebraica Atlantica" href="http://localhost:4000/bibliothecahebraicaatlantica/feed.xml" />
 </head>
 
 
@@ -73,7 +73,11 @@
 
     <div class="page-content">
         <div class="wrapper">
-            <div class="container">
+            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+<div class="container">
     <div class="row">
         <div class="col-md-4">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -92,6 +96,10 @@
           
           
           <a class="list-group-item active" href="/bibliothecahebraicaatlantica/docs/home/">Getting Started</a>
+        
+          
+          
+          <a class="list-group-item " href="/bibliothecahebraicaatlantica/docs/summarydata/">Summary Data</a>
         
           
           
@@ -155,17 +163,25 @@
             </ul>
             <p><h2 id="about-the-data">About the Data</h2>
 
-<p>If you are interested exploring the data immediately, use left hand bar to navigate to the different datasets we have created for the different libraries listed.</p>
+<p>If you are interested in exploring the data immediately, use the left hand bar to navigate to the different datasets we have created for the different libraries listed.</p>
 
 <p>If you are interested in our methodology for creating the data, please read below:</p>
 
 <ol>
-  <li><strong>Create a List of Books that have Hebraic Content</strong> - Dr. Arthur Kiron of the University of Pennsylvania Libraries first physically went to the libraries themselves a, examining them for Hebraic content.</li>
-  <li><strong>Accessing the catalogues</strong> - Once we had an idea of the authors and titles that would have Hebraic content in a colonial library we began using online tools, like Google Books and Hathi Trust to access the catalogues of the various libraries of Colonial America.</li>
-  <li><strong>Marking the Catalogue</strong> you have the catalogues, mark down which books correspond to the corpus list from step 1. (We often would simultaneously do this with step 5)</li>
-  <li><strong>List feature in WorldCat</strong> - Create a list in a WorldCat Using these catalogues we created an account in WorldCat and used the list feature they offer. We created a seperate list for each catalogue we evaluated.</li>
-  <li><strong>Add the appropriate edition to the list</strong> - We would look at WorldCat looking at whichever catalogue entry corresponded to the matching list entry from step 3 and we would add them to our “list” in WorldCat. The crucial part about this step was that on WorldCat you cannot just search for the title in the searchbox and assume that title corresponds to the title looking for because they happen to match.  There can be different editions for one book (you can see this if you filter by year) and even within one year there can be many different editions or entries for that one book depending on how a library chose to enter the metadata ( meaning the author, title, publication place etc.). Because of this, it is important to think carefully about which edition you decide you add to your list.</li>
-  <li><strong>Export your list</strong> - Once you are done going through a catalogue you can export it to a spreasheet. WorldCat has the ability to export each list to a CSV. <em>Make sure you do not open a CSV with Hebrew or Arabic characters in Excel, it will corrupt the file. Only open the CSV on Google Sheets or Open Refine.</em></li>
+  <li><strong>Creating a list of books that have Hebraic Content</strong>: 
+Our point of departure was the Logan Library at the Library Company in Philadelphia and Edwin Wolf 2nd’s monumental work <em>The Library of James Logan of Philadelphia</em> (Philadelphia: The Library Company of Philadelphia, 1974). After compiling a list of works to inspect, we visited the Library Company to inspect individual volumes for evidence of reading and annotation.  The Logan Library constitutes the foundation of our “core list” of books we have found in colonial British America. In reviewing the Logan library it became clear that not only were Hebraic works present but also a wide range of reference works and tools for the exploration of Oriental studies in a polyglot of languages, including Arabic, Aramaic, Greek, Latin, Persian, and Syriac. For examples of such grammars and lexicons in the Logan collection, see Wolf 2nd, <em>Logan Library</em>, entry nos. 375-383 (Buxtorf); 428 (Castell); 693-694 (Erpe); 925 (Herbelot); 1157 (Laras); 1194 (Leusden); 1206 (Linguarum Orientalium); 1353 (Miller); 1706-1708 (Robertson); 1785 (Schindler). NB: <em>Our dataset is not restricted to Hebraic texts but includes works that reflect this wider context of this transatlantic reception of early modern Christian Orientalist scholarship.</em></li>
+  <li><strong>Pattern Recognition</strong>:
+With the core list in hand, we began searching other print catalogues of colonial American libraries for these and other works and any notes about marginalia.  We created a spreadsheet to track the recurrence of authors, titles and editions in the various major collections we searched. We now had a preliminary list of works across several libraries and a plan to inspect them physically. At this time, only a handful of collections have been physically inspected (Logan, Christ Church, Penn, Columbia (King’s College). With each new library collection or catalogue we review, we add new entries to our preliminary list of works to search, and retrospectively search previously inspected libraries and catalogues in case we have missed a newly discovered work.</li>
+  <li><strong>Searching library catalogues</strong>:
+With the growing preliminary list in hand, we began building an expanded list of libraries collections to search, and a plan to check systematically print catalogues and the amazing on-line resource created by Jeremy Dibbell and others called <a href="http://www.librarything.com/legacylibraries/list/1591578936"><em>Libraries of Early America</em></a> to see if holdings of these works were listed. We expanded our searches to include names of known Christian Hebraist authors, building on the list that appears <a href="https://en.wikipedia.org/wiki/Christian_Hebraist#List_of_Christian_Hebraists"><em>here</em></a>.  These preliminary lists and the library collections to search remains a work in progress. Methodologically, it is very important to keep in mind that print catalogues are not exhaustive in their holdings and evidence of book ownership of works not listed in the known print catalogues must be sought and expected elsewhere.</li>
+  <li><strong>Accessing and Analyzing On-line Catalogues</strong>: 
+With this preliminary searching phase accomplished, our dataset of authors and titles with Hebraica and/or Oriental studies content and library collections grew. We next began looking for digital copies of print catalogues which were not under copyright and which could be freely linked to the datasets we are building. We began using online tools, like Google Books, Hathi Trust, and the Internet Archive, to access the digital copies of catalogues and books of the various libraries of Colonial America we are searching and to build our datasets for analysis.</li>
+  <li><strong>From Skeletons to Full Bodies: The list feature in WorldCat</strong>:
+With our catalogues in hand, we created an account in WorldCat and used the list feature they offer to record the OCLC number’s and other metadata, more fully describing our skeletal list of authors, titles, and editions to full bibliographic records of these same works.  We created a separate list of OCLC record numbers for each library collection catalogue we evaluated.</li>
+  <li><strong>Add the appropriate edition to the list</strong>:
+When we searched WorldCat, we looked at whichever record entry corresponded to the partricular edition in our preliminary list of works.  We then added that record to our customized list using the list feature in WorldCat. The crucial part about this step was that on WorldCat you cannot just search for the title in the searchbox and assume that title corresponds to the title for which we were look simply because they happen to match.  There can be different editions for one book (you can see this if you filter by year) and even within one year there can be many different editions or entries for that one book depending on how a library chose to enter the metadata ( meaning the author, title, publication place etc.). Because of this, it is important to think carefully about which edition you decide you add to your list. NB: <em>digital access is only available on this site to this metada, i.e., the cataloging information about the particular edition; digital access to the unique copies themselves which were owned by the particular book collector or institution are not available through this site.</em></li>
+  <li><strong>Export your list</strong>:
+Once we finish going through a catalogue and its corresponding OCLC record matches, we export the records to a spreadsheet. WorldCat has the ability to export each list to a CSV. NB: <em>Make sure you do not open a CSV with Hebrew or Arabic characters in Excel, it will corrupt the file. Only open the CSV on Google Sheets, Numbers, or Open Refine.</em></li>
 </ol>
 
             </p>
@@ -196,7 +212,7 @@
         
         
         <li class="next">
-          <a href="/bibliothecahebraicaatlantica/docs/benjaminfranklin/">
+          <a href="/bibliothecahebraicaatlantica/docs/summarydata/">
             Next <span aria-hidden="true">&rarr;</span>
           </a>
         </li>
@@ -207,7 +223,10 @@
 
 
         </div>
-
+        
+        $(document).ready( function () {
+            $('#table_id').DataTable();
+        } );
 
     </div>
 </div>
@@ -219,7 +238,7 @@
     <div class="container">
 
         <p class="text-center">
-            Bibliotheca Hebraica Atlantica 2018 |
+            Bibliotheca Hebraica Atlantica 2019 |
             Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a> and <a href="https://Judaicadh.github.io">Judaica DH at the Penn Libraries</a>
         </p>
         <!-- <p class="text-muted">Place sticky footer content here.</p> -->
