@@ -6,7 +6,7 @@ textlink: "Wolf, Edwin, and Kevin J. Hayes. 2006. The library of Benjamin Frank
 ---
 
 <div class="row">
-  <table id="speakertable" class="row-border" cellspacing="0" width="100%">
+  <table id="table_id" class="row-border" cellspacing="0" width="100%">
     <thead>
         <tr>
           <th>OCLC #</th>
