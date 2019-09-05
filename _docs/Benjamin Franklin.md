@@ -1,7 +1,7 @@
 ---
 title: Benjamin Franklin
 permalink: /docs/benjaminfranklin/
-csvlink: "/Benjamin Franklin/WorldCat_3743313.csv"
+csvlink: github.com/judaicadh/bibliothecahebraicaatlantica/Benjamin Franklin/WorldCat_3743313.csv
 textlink: "Wolf, Edwin, and Kevin J. Hayes. 2006. The library of Benjamin Franklin. Philadelphia: American Philosophical Society/Library Co. of Philadelphia."
 ---
 
