@@ -5,6 +5,12 @@ layout: default
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
+<script>
+  $(document).ready( function () {
+      $('#table_id').DataTable();
+  } );
+</script>
+
 <div class="container">
     <div class="row">
         <div class="col-md-4">
@@ -44,9 +50,3 @@ layout: default
 
     </div>
 </div>
-
-<script>
-  $(document).ready( function () {
-      $('#table_id').DataTable();
-  } );
-</script>
