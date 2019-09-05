@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="/bibliothecahebraicaatlantica/css/main.css">
     <link rel="stylesheet" href="/bibliothecahebraicaatlantica/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 
     <link rel="shortcut icon" href="/bibliothecahebraicaatlantica/favicon.ico?1">
     <!-- Begin Jekyll SEO tag v2.2.2 -->
@@ -31,6 +32,14 @@
 
     <link rel="canonical" href="http://localhost:4000/bibliothecahebraicaatlantica/allposts.html">
     <link rel="alternate" type="application/rss+xml" title="Bibliotheca Hebraica Atlantica" href="http://localhost:4000/bibliothecahebraicaatlantica/feed.xml" />
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+    <script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+    </script>
 </head>
 
 
@@ -100,6 +109,11 @@
         </p>
         <!-- <p class="text-muted">Place sticky footer content here.</p> -->
     </div>
+    <script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+    </script>
 </footer>
 
     <script>
