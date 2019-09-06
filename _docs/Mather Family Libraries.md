@@ -25,7 +25,7 @@ textview: "https://hdl.handle.net/2027/hvd.32044080260326?urlappend=%3Bui=embed"
 
     <tbody>  
       {% for entry in site.data.summary %}
-        {% if entry.Library == "Mather Family Libraries"%}
+        {% if entry.Library == "Richard Mather"%}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
