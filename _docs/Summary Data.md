@@ -2,8 +2,43 @@
 title: Summary Data
 permalink: /docs/summarydata/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/Summary%20Data/Summary%20Data.csv
-textlink: This is the aggregate data of all of the different libraries you find on this website. 
+textlink: This is the aggregate data of all of the different libraries you find on this website.
 ---
 
+<div class="row">
+  <table id="library-table" class="display" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+          <th>OCLC #</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Language</th>
+          <th>Item type</th>
+          <th>Publication</th>
+          <th>Publisher</th>
+          <th>Database</th>
+          <th>Notes</th>
+          <th>Added date</th>
+          <th>Library</th>
+        </tr>
+    </thead>
 
-<iframe width="700" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTpUl8F4I9qrUku5gQWJF6O4l0gL-Nu2pocS3l3WL__W6Rt9CPCMMxrfIpeqK5y4w8VMFI174ivdngQ/pubhtml?widget=true&amp;headers=false"></iframe>
+    <tbody>  
+      {% for entry in site.data.summary %}
+          <tr>
+            <td>{{entry.OCLC}}</td>
+            <td>{{entry.Title}}</td>
+            <td>{{entry.Author}}</td>
+            <td>{{entry.Language}}</td>
+            <td>{{entry.Item_type}}</td>
+            <td>{{entry.Publication}}</td>
+            <td>{{entry.Publisher}}</td>
+            <td>{{entry.Database}}</td>
+            <td>{{entry.Notes}}</td>
+            <td>{{entry.Date_Added}}</td>
+            <td>{{entry.Library}}</td>
+          </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
