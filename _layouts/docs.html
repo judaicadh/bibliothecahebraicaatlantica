@@ -28,13 +28,13 @@ layout: default
             <ul>
 {% if page.category != 'home' %}
             <li>
-            <a target="_blank" href="{{ page.csvlink }}">Download Data</a>
+            <strong><a target="_blank" href="{{ page.csvlink }}">Download Data</a></strong>
             </li>
 
 
             <li>
 
-           <strong>>Link to Catalogue or Reference Book Used:</strong><a target="_blank" href="{{ page.textview }}">{{ page.textlink }}</a>
+           <strong>Catalogue or Reference Book Used: {{ page.textview }} <a href="{{ page.textlink }}" targert="_blank">(link)</a>
 
             </li>
   {% endif %}
