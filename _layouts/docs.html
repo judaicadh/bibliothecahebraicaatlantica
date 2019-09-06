@@ -23,9 +23,10 @@ layout: default
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.6/b-html5-1.5.6/datatables.min.css"/>
 
 <script>
+  $.noConflict();
   $(document).ready( function () {
-      $('#library-table').DataTable();
-  } );
+    $('#library-table').DataTable();
+} );
 </script>
 
 <div class="container">
