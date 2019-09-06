@@ -24,9 +24,9 @@
 <meta property="og:url" content="http://localhost:4000/bibliothecahebraicaatlantica/docs/home/" />
 <meta property="og:site_name" content="Bibliotheca Hebraica Atlantica" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-09-06T15:18:55+00:00" />
+<meta property="article:published_time" content="2019-09-06T15:26:10+00:00" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"Getting Started","datePublished":"2019-09-06T15:18:55+00:00","dateModified":"2019-09-06T15:18:55+00:00","description":"About the Data","url":"http://localhost:4000/bibliothecahebraicaatlantica/docs/home/"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"Getting Started","datePublished":"2019-09-06T15:26:10+00:00","dateModified":"2019-09-06T15:26:10+00:00","description":"About the Data","url":"http://localhost:4000/bibliothecahebraicaatlantica/docs/home/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -73,17 +73,11 @@
 
     <div class="page-content">
         <div class="wrapper">
-            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script src="jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.css"/>
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready( function () {
-    $('#table').DataTable();
-} );
-</script>
 
 <div class="container">
     <div class="row">
@@ -230,6 +224,11 @@ Once we finish going through a catalogue and its corresponding OCLC record match
     
 
 
+<script>
+  $(document).ready( function () {
+    $('#table').DataTable();
+} );
+</script>
         </div>
 
     </div>
