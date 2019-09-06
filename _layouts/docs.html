@@ -25,6 +25,12 @@ layout: default
 <script>
   $(document).ready( function () {
       $('#library-table').DataTable();
+      dom: 'Bfrtip',
+        buttons: [
+            'csvHtml5',
+        ]
+    } );
+} );
   } );
 </script>
 
