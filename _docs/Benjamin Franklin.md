@@ -6,7 +6,11 @@ textlink: "Wolf, Edwin, and Kevin J. Hayes. 2006. The library of Benjamin Frank
 ---
 
 <div class="row">
+<<<<<<< HEAD
   <table id="library-table" class="stripe hover order-column row-border" cellspacing="0" width="100%">
+=======
+  <table id="library-table" class="row-border" cellspacing="0" width="100%">
+>>>>>>> parent of c361dca... Revert "Revert "Revert "Revert "csv button, pretty csv""""
     <thead>
         <tr>
           <th>OCLC #</th>
