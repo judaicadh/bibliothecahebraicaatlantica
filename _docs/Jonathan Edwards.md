@@ -1,7 +1,7 @@
 ---
 title: Jonathan Edwards
 permalink: /docs/jonathanedwards/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Jonathan%20Edwards/WorldCat_3743406.csv
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Jonathan_Edwards.csv
 textlink: "http://library.princeton.edu/libraries/firestone/rbsc/aids/1920_Edwards_Collection.pdf"
 textview: http://library.princeton.edu/libraries/firestone/rbsc/aids/1920_Edwards_Collection.pdf
 ---
@@ -25,8 +25,7 @@ textview: http://library.princeton.edu/libraries/firestone/rbsc/aids/1920_Edward
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
-        {% if entry.Library == "Jonathan Edwards"%}
+      {% for entry in site.data.Jonathan_Edwards %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
@@ -40,7 +39,6 @@ textview: http://library.princeton.edu/libraries/firestone/rbsc/aids/1920_Edward
             <td>{{entry.Date_Added}}</td>
             <td>{{entry.Library}}</td>
           </tr>
-        {% endif %}
       {% endfor %}
     </tbody>
   </table>

@@ -1,7 +1,7 @@
 ---
 title: Mather Family Libraries
 permalink: /docs/matherfamilylibraries/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Richard%20Mather/WorldCat_3744531.csv
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Mather_Family_Libraries.csv
 textlink: "Tuttle, J. Herbert. (1910). The libraries of the Mathers. Worcester, Mass.: Davis Press."
 textview: https://hdl.handle.net/2027/hvd.32044080260326?urlappend=%3Bui=embed
 ---
@@ -24,8 +24,7 @@ textview: https://hdl.handle.net/2027/hvd.32044080260326?urlappend=%3Bui=embed
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
-        {% if entry.Library == "Richard Mather"%}
+      {% for entry in site.data.Mather_Family_Libraries %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
@@ -39,7 +38,6 @@ textview: https://hdl.handle.net/2027/hvd.32044080260326?urlappend=%3Bui=embed
             <td>{{entry.Date_Added}}</td>
             <td>{{entry.Library}}</td>
           </tr>
-        {% endif %}
       {% endfor %}
     </tbody>
   </table>

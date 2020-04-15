@@ -1,7 +1,7 @@
 ---
 title: Thomas Jefferson
 permalink: /docs/thomasjefferson/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Thomas%20Jefferson/WorldCat_3740637.csv
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Thomas_Jefferson.csv
 textlink: "Jefferson, T. (1989). Thomas Jefferson's library: a catalog with the entries in his own order. Washington: Library of Congress ."
 textview: https://hdl.handle.net/2027/pur1.32754004402792?urlappend=%3Bui=embed
 ---
@@ -26,7 +26,7 @@ textview: https://hdl.handle.net/2027/pur1.32754004402792?urlappend=%3Bui=embed
 
     <tbody>  
       {% for entry in site.data.summary %}
-        {% if entry.Library == "Thomas Jefferson"%}
+        {% if entry.Library == "Thomas Jefferson" %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>

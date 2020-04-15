@@ -1,7 +1,7 @@
 ---
 title: Summary Data
 permalink: /docs/summarydata/
-csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/Summary%20Data/Summary%20Data.csv
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Summary_Data.csv
 textlink: This is the aggregate data of all of the different libraries you find on this website.
 textview: ""
 ---
@@ -25,7 +25,7 @@ textview: ""
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
+      {% for entry in site.data.Summary_Data %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>

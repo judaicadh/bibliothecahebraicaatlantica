@@ -1,7 +1,7 @@
 ---
 title: William Byrd
 permalink: /docs/williambyrd/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/William%20Byrd/WorldCat_3742311.csv
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/William_Byrd.csv
 textlink: "Hayes, K. J. (1997). The library of William Byrd of Westover. Madison, Wis.: Madison House."
 textview: https://hdl.handle.net/2027/pur1.32754004402792?urlappend=%3Bui=embed
 ---
@@ -24,8 +24,7 @@ textview: https://hdl.handle.net/2027/pur1.32754004402792?urlappend=%3Bui=embed
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
-        {% if entry.Library == "William Byrd"%}
+      {% for entry in site.data.William_Byrd %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
@@ -39,7 +38,6 @@ textview: https://hdl.handle.net/2027/pur1.32754004402792?urlappend=%3Bui=embed
             <td>{{entry.Date_Added}}</td>
             <td>{{entry.Library}}</td>
           </tr>
-        {% endif %}
       {% endfor %}
     </tbody>
   </table>

@@ -1,7 +1,7 @@
 ---
 title: Yale
 permalink: /docs/yale/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/tree/master/Yale
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Yale.csv
 textlink: "Yale University. Library., . (1808). Catalogue of books in the library of Yale-College, New-Haven, January, 1808. New-Haven: Printed by Oliver Steele & Co.."
 textview: https://hdl.handle.net/2027/nnc1.50169434?urlappend=%3Bui=embed
 ---
@@ -25,8 +25,7 @@ textview: https://hdl.handle.net/2027/nnc1.50169434?urlappend=%3Bui=embed
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
-        {% if entry.Library == "Yale"%}
+      {% for entry in site.data.Yale %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
@@ -40,7 +39,6 @@ textview: https://hdl.handle.net/2027/nnc1.50169434?urlappend=%3Bui=embed
             <td>{{entry.Date_Added}}</td>
             <td>{{entry.Library}}</td>
           </tr>
-        {% endif %}
       {% endfor %}
     </tbody>
   </table>

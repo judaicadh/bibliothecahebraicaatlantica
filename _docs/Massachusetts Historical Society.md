@@ -1,9 +1,9 @@
 ---
-title: Massachusettes Bay Colony
-permalink: /docs/mbc/
-csvlink: https://github.com/judaicadh/bibliohebraicaatlantica/blob/master/Massachusettes%20Bay%20Colony/WorldCat_3743242.csv
-textlink: ""
-textview: ""
+title: Massachusetts Historical Society
+permalink: /docs/mhs/
+csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Massachusetts_Historical_Society.csv
+textlink: "Massachusetts Historical Society. Library., . (1796). Catalogue of books in the Massachusetts Historical Society library. Boston: Printed by S. Hall, no. 53, Cornhill."
+textview: https://hdl.handle.net/2027/nyp.33433069263154?urlappend=%3Bui=embed
 ---
 
 <div class="row">
@@ -25,8 +25,7 @@ textview: ""
     </thead>
 
     <tbody>  
-      {% for entry in site.data.summary %}
-        {% if entry.Library == "Massachusetts Bay Colony"%}
+      {% for entry in site.data.Massachusetts_Historical_Society %}
           <tr>
             <td>{{entry.OCLC}}</td>
             <td>{{entry.Title}}</td>
@@ -40,7 +39,6 @@ textview: ""
             <td>{{entry.Date_Added}}</td>
             <td>{{entry.Library}}</td>
           </tr>
-        {% endif %}
       {% endfor %}
     </tbody>
   </table>
