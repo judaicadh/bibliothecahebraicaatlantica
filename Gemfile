@@ -1,18 +1,9 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
-gem "jekyll", "3.4.3"
-
-# to use GitHub Pages
-# gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-   gem "jekyll-feed"
-   gem "jekyll-sitemap"
-   gem "jekyll-redirect-from"
-   gem "jekyll-seo-tag"
-end
+# Use the github-pages gem so local builds match what GitHub Pages runs.
+# It bundles Jekyll plus the supported plugins (jekyll-feed, jekyll-sitemap,
+# jekyll-redirect-from, jekyll-seo-tag) at the exact versions Pages uses.
+gem "github-pages", group: :jekyll_plugins
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

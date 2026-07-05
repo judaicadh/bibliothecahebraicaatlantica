@@ -1,0 +1,12 @@
+# Jekyll build output
+_site/
+
+# Sass compiler cache
+.sass-cache/
+
+# Bundler
+/.bundle/
+/vendor/
+
+# macOS
+.DS_Store
