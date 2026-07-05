@@ -8,7 +8,7 @@ The presence of Latin and Greek texts as well as Hebrew Bibles in colonial Ameri
 - Laura Newman Eckstein
 - John Pollack
 - Peter Stallybrass (Penn)
-- Michelle Chesner, Columbia University Libraries
+- Michelle Margolis, Columbia University Libraries
 - James Green and the staff of the Library Company of Pennsylvania
 - the staff of the Historical Society of Pennsylvania
 - Jesús de Prado Plumed, Universidad Nacional Autónoma de México
