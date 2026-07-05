@@ -1,0 +1,11 @@
+{% if jekyll.environment == "production" and site.google_analytics %}
+<!-- Google Analytics 4 (gtag.js) — only loaded on the live GitHub Pages build,
+     so local `jekyll serve` traffic is not counted. Set the ID in _config.yml. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}

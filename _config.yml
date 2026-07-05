@@ -7,6 +7,11 @@ description: >
 baseurl: /bibliothecahebraicaatlantica # the subpath of your site, e.g. /blog/
 url: https://judaica.github.io # the base hostname & protocol for your site
 
+# Google Analytics 4 Measurement ID (looks like G-XXXXXXXXXX).
+# Get it from Google Analytics > Admin > Data Streams > your web stream.
+# Leave blank to disable tracking. Only loads on the live (production) build.
+google_analytics: G-B9ETXS6DG6
+
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap

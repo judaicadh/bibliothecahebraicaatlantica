@@ -14,6 +14,74 @@ The presence of Latin and Greek texts as well as Hebrew Bibles in colonial Ameri
 - Jesús de Prado Plumed, Universidad Nacional Autónoma de México
 - Oliver Mitchell-Boyask
 
+---
+
+## The website
+
+The project is published as a static [Jekyll](https://jekyllrb.com/) site hosted on **GitHub Pages** at
+**https://judaica.github.io/bibliothecahebraicaatlantica/**. Each library's holdings are stored as CSV
+data and rendered as searchable, sortable, mobile-friendly tables using
+[DataTables](https://datatables.net/).
+
+### Repository structure
+
+| Path | What it holds |
+|------|---------------|
+| `index.html` | Home page (project overview). |
+| `_docs/` | One Markdown page per library/collection (Franklin, Yale, Jefferson, …). Front matter + the table markup. |
+| `_data/` | The underlying data, one `*.csv` per library, referenced by the matching page via `site.data.<Name>`. |
+| `_layouts/` | Page templates. `docs.html` renders the data-table pages. |
+| `_includes/` | Reusable partials: `head.html`, `topnav.html`, `footer.html`, `analytics.html`, nav includes. |
+| `_sass/`, `css/` | Bootstrap 3 + the Bootswatch "Journal" theme, compiled to `css/main.css`. |
+| `_config.yml` | Site-wide settings (title, base URL, plugins, analytics ID). |
+
+### Adding or updating a library
+
+1. Add the data as `_data/<Library_Name>.csv` (column headers become the table columns).
+2. Create `_docs/<Library Name>.md`. The quickest path is to copy an existing page (e.g.
+   `_docs/Benjamin Franklin.md`) and update its front matter:
+   ```yaml
+   ---
+   title: Library Name
+   permalink: /docs/librarypermalink/
+   csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Library_Name.csv
+   textlink: "Full bibliographic citation of the source catalogue."
+   textview: https://link-to-the-source
+   ---
+   ```
+   Then point the table loop at your data: `{% for entry in site.data.Library_Name %}`.
+3. Commit and push — GitHub Pages rebuilds and deploys automatically (usually within a minute).
+
+Small text edits can be made directly in the GitHub web editor; structural changes are easier to
+preview locally first (see below).
+
+### Running the site locally
+
+Requires **Ruby 3.x** (the toolchain no longer builds on macOS's system Ruby 2.6 — use
+[rbenv](https://github.com/rbenv/rbenv) or similar).
+
+```bash
+bundle install
+export LANG=en_US.UTF-8          # avoids a Sass "US-ASCII character" build error
+bundle exec jekyll serve
+# → http://localhost:4000/bibliothecahebraicaatlantica/
+```
+
+The site pins the [`github-pages`](https://github.com/github/pages-gem) gem so local builds match what
+GitHub Pages runs. Refresh it a couple of times a year with `bundle update github-pages`.
+
+### Analytics
+
+Page traffic is tracked with **Google Analytics 4**. Set your Measurement ID in `_config.yml`:
+
+```yaml
+google_analytics: G-XXXXXXXXXX
+```
+
+The snippet (`_includes/analytics.html`) only loads on the live production build, so local development
+traffic is never counted. Leave the value blank to disable tracking entirely.
+
+---
 
 # This is a Judaica Digital Humanities at the Penn Libraries repository.
 Judaica Digital Humanities at the <a href="http://library.upenn.edu">Penn Libraries</a> (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. Visit our [website](judaicadh.github.io).
