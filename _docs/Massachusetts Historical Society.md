@@ -1,5 +1,6 @@
 ---
 title: Massachusetts Historical Society
+description: "Hebraic and rabbinic books held at the Massachusetts Historical Society, documented from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/mhs/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Massachusetts_Historical_Society.csv
 textlink: "Massachusetts Historical Society. Library., . (1796). Catalogue of books in the Massachusetts Historical Society library. Boston: Printed by S. Hall, no. 53, Cornhill."

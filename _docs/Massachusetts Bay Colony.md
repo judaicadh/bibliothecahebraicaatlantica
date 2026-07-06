@@ -1,5 +1,6 @@
 ---
 title: Massachusetts Bay Colony
+description: "Hebrew and Hebraic books recorded in Massachusetts Bay Colony libraries, documented from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/mbc/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Massachusetts_Bay_Colony.csv
 textlink: ""

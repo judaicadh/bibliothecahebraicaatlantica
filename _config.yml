@@ -1,8 +1,11 @@
 # Site settings
 title: Bibliotheca Hebraica Atlantica
 email: judaicadh@gmail.com
+author: Judaica Digital Humanities at the Penn Libraries
 description: >
-  Bibliotheca Hebraica Atlantica
+  A digital survey of Hebrew and Hebraic books in the libraries of the colonial
+  Atlantic world — datasets documenting Christian and Jewish Hebraica that crossed
+  the Atlantic to early America in the 17th and 18th centuries.
 
 baseurl: /bibliothecahebraicaatlantica # the subpath of your site, e.g. /blog/
 url: https://judaica.github.io # the base hostname & protocol for your site
@@ -35,6 +38,12 @@ exclude:
   - README.md
 timezone: Philadelphia
 defaults:
+# Default social-share image for every page (Open Graph / Twitter cards).
+- scope:
+    path: ""
+  values:
+    image: /img/bg.jpg
+
 - scope:
     path: _posts
     type: posts

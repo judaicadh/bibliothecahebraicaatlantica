@@ -1,5 +1,6 @@
 ---
 title: Thomas Jefferson
+description: "Hebrew and Hebraic books documented in the library of Thomas Jefferson, from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/thomasjefferson/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Thomas_Jefferson.csv
 textlink: "Jefferson, T. (1989). Thomas Jefferson's library: a catalog with the entries in his own order. Washington: Library of Congress ."

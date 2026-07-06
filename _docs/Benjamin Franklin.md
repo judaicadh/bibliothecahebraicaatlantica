@@ -1,5 +1,6 @@
 ---
 title: Benjamin Franklin
+description: "Hebrew and Hebraic books documented in the library of Benjamin Franklin, from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/benjaminfranklin/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Benjamin_Franklin.csv
 textlink: "Wolf, Edwin, and Kevin J. Hayes. 2006. The library of Benjamin Franklin. Philadelphia: American Philosophical Society/Library Co. of Philadelphia."

@@ -1,5 +1,6 @@
 ---
 title: Summary Data
+description: "Aggregated data on Hebrew and Hebraic books across the colonial Atlantic-world libraries from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/summarydata/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Summary_Data.csv
 textlink: This is the aggregate data of all of the different libraries you find on this website.

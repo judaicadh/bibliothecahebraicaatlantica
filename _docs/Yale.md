@@ -1,5 +1,6 @@
 ---
 title: Yale
+description: "Hebrew and Hebraic books in the early library of Yale College, documented from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/yale/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Yale.csv
 textlink: "Yale University. Library., . (1808). Catalogue of books in the library of Yale-College, New-Haven, January, 1808. New-Haven: Printed by Oliver Steele & Co.."

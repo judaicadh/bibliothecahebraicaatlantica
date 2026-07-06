@@ -1,5 +1,6 @@
 ---
-title: Getting Started
+title: About the Data
+description: "How the Bibliotheca Hebraica Atlantica datasets were built — our methodology for documenting Hebrew and Hebraic books across the libraries of the colonial Atlantic world."
 permalink: /docs/home/
 textlink:
 csvlink:

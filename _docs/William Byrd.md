@@ -1,5 +1,6 @@
 ---
 title: William Byrd
+description: "Hebrew and Hebraic books in the library of William Byrd of Westover, documented from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/williambyrd/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/William_Byrd.csv
 textlink: "Hayes, K. J. (1997). The library of William Byrd of Westover. Madison, Wis.: Madison House."

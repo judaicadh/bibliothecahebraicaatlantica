@@ -1,5 +1,6 @@
 ---
 title: John Adams
+description: "Hebrew and Hebraic books documented in the library of John Adams, from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/johnadams/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/John_Adams.csv
 textlink:  "<br /> Adams, J. Quincy. (1938). A catalogue of the books of John Quincy Adams: deposited in the Boston athenæum, with notes on books, Adams seals and book-plates. Boston: Athenæum. <br /> Metcalf, E. Wight., Adams, J., Boston Public Library. Adams Collection., . (1823). Deeds and other documents relating to the several pieces of land, and to the library presented to the town of Quincy by President Adams ; together with a catalogue of the books. Cambridge [Mass.]: Printed by Hilliard and Metcalf."

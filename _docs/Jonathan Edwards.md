@@ -1,5 +1,6 @@
 ---
 title: Jonathan Edwards
+description: "Hebrew and Hebraic books documented in the library of the theologian Jonathan Edwards, from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/jonathanedwards/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Jonathan_Edwards.csv
 textlink: "http://library.princeton.edu/libraries/firestone/rbsc/aids/1920_Edwards_Collection.pdf"

@@ -1,5 +1,6 @@
 ---
 title: James Logan
+description: "Hebraica and Oriental-studies works in the library of James Logan of Philadelphia, the core collection from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/jameslogan/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/James_Logan.csv
 textlink: "Loganian Library., (1974). The library of James Logan of Philadelphia, 1674-1751. Philadelphia: Library Company of Philadelphia."

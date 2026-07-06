@@ -1,5 +1,6 @@
 ---
 title: Mather Family Libraries
+description: "Hebrew and Hebraic books in the Mather family libraries of colonial New England, documented from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/matherfamilylibraries/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/Mather_Family_Libraries.csv
 textlink: "Tuttle, J. Herbert. (1910). The libraries of the Mathers. Worcester, Mass.: Davis Press."

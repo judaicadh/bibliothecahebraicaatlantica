@@ -1,5 +1,6 @@
 ---
 title: George Washington
+description: "Hebrew and Hebraic books documented in the library of George Washington, from the Bibliotheca Hebraica Atlantica survey of Hebrew and Hebraic books in the colonial Atlantic world."
 permalink: /docs/georgewashington/
 csvlink: https://github.com/judaicadh/bibliothecahebraicaatlantica/blob/master/_data/George_Washington.csv
 textlink: "Washington, G. (1890). Catalogue ..: collection of the effects of General George Washington and of his executor and nephew, Lawrence Lewis, and grand-nephew, Lorenzo Lewis ... [Philadelphia: The Bicking press."
