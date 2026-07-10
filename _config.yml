@@ -7,8 +7,8 @@ description: >
   Atlantic world — datasets documenting Christian and Jewish Hebraica that crossed
   the Atlantic to early America in the 17th and 18th centuries.
 
-baseurl: /bibliothecahebraicaatlantica # the subpath of your site, e.g. /blog/
-url: https://judaica.github.io # the base hostname & protocol for your site
+baseurl: "" # served at the domain root on Netlify (no subpath)
+url: https://bibliotecahebraicaatlantica.judaicadhpenn.org # the base hostname & protocol for your site
 
 # Google Analytics 4 Measurement ID (looks like G-XXXXXXXXXX).
 # Get it from Google Analytics > Admin > Data Streams > your web stream.
@@ -36,6 +36,8 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
+  - netlify.toml
+  - vendor/
 timezone: Philadelphia
 defaults:
 # Default social-share image for every page (Open Graph / Twitter cards).

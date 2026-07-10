@@ -1,0 +1,11 @@
+# Netlify build configuration for the Jekyll site.
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  # Build the production site (enables the Google Analytics tag).
+  JEKYLL_ENV = "production"
+  # Force a UTF-8 locale so Sass doesn't choke on non-ASCII characters.
+  LANG = "en_US.UTF-8"
+  LC_ALL = "en_US.UTF-8"
