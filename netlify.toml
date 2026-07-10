@@ -9,3 +9,11 @@
   # Force a UTF-8 locale so Sass doesn't choke on non-ASCII characters.
   LANG = "en_US.UTF-8"
   LC_ALL = "en_US.UTF-8"
+
+# 301 old GitHub Pages-style paths (which carried the /bibliothecahebraicaatlantica/
+# prefix) to their clean equivalent now that the site is served at the domain root.
+[[redirects]]
+  from = "/bibliothecahebraicaatlantica/*"
+  to = "/:splat"
+  status = 301
+  force = true

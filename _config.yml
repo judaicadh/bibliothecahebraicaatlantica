@@ -8,7 +8,7 @@ description: >
   the Atlantic to early America in the 17th and 18th centuries.
 
 baseurl: "" # served at the domain root on Netlify (no subpath)
-url: https://bibliotecahebraicaatlantica.judaicadhpenn.org # the base hostname & protocol for your site
+url: https://bibliothecahebraicaatlantica.judaicadhpenn.org # the base hostname & protocol for your site
 
 # Google Analytics 4 Measurement ID (looks like G-XXXXXXXXXX).
 # Get it from Google Analytics > Admin > Data Streams > your web stream.

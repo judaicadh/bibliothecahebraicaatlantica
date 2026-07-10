@@ -18,8 +18,9 @@ The presence of Latin and Greek texts as well as Hebrew Bibles in colonial Ameri
 
 ## The website
 
-The project is published as a static [Jekyll](https://jekyllrb.com/) site hosted on **GitHub Pages** at
-**https://judaica.github.io/bibliothecahebraicaatlantica/**. Each library's holdings are stored as CSV
+The project is published as a static [Jekyll](https://jekyllrb.com/) site, built and hosted on
+**[Netlify](https://www.netlify.com/)** at
+**https://bibliothecahebraicaatlantica.judaicadhpenn.org**. Each library's holdings are stored as CSV
 data and rendered as searchable, sortable, mobile-friendly tables using
 [DataTables](https://datatables.net/).
 
@@ -50,7 +51,7 @@ data and rendered as searchable, sortable, mobile-friendly tables using
    ---
    ```
    Then point the table loop at your data: `{% for entry in site.data.Library_Name %}`.
-3. Commit and push — GitHub Pages rebuilds and deploys automatically (usually within a minute).
+3. Commit and push to `master` — Netlify rebuilds and deploys automatically (usually within a minute).
 
 Small text edits can be made directly in the GitHub web editor; structural changes are easier to
 preview locally first (see below).
@@ -64,11 +65,16 @@ Requires **Ruby 3.x** (the toolchain no longer builds on macOS's system Ruby 2.6
 bundle install
 export LANG=en_US.UTF-8          # avoids a Sass "US-ASCII character" build error
 bundle exec jekyll serve
-# → http://localhost:4000/bibliothecahebraicaatlantica/
+# → http://localhost:4000/
 ```
 
-The site pins the [`github-pages`](https://github.com/github/pages-gem) gem so local builds match what
-GitHub Pages runs. Refresh it a couple of times a year with `bundle update github-pages`.
+### Deployment
+
+The live site is built and hosted on **[Netlify](https://www.netlify.com/)** (config in
+[`netlify.toml`](netlify.toml)): every push to `master` runs `bundle exec jekyll build` and publishes
+`_site`. The Ruby version is pinned in [`.ruby-version`](.ruby-version). Jekyll and its plugins are
+pinned via the [`github-pages`](https://github.com/github/pages-gem) gem — refresh occasionally with
+`bundle update github-pages`.
 
 ### Analytics
 
