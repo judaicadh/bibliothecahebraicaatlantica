@@ -6,6 +6,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  // Consent Mode v2: deny storage until the visitor chooses. The Silktide consent
+  // manager (see cookie-banner.html) flips these to 'granted' per the visitor's choice
+  // and replays that choice on return visits via its own gtag mappings.
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  });
+
   gtag('config', '{{ site.google_analytics }}');
 </script>
 {% endif %}

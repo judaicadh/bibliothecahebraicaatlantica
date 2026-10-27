@@ -19,7 +19,7 @@ The presence of Latin and Greek texts as well as Hebrew Bibles in colonial Ameri
 ## The website
 
 The project is published as a static [Jekyll](https://jekyllrb.com/) site, built and hosted on
-**[Netlify](https://www.netlify.com/)** at
+**[Netlify](https://www.netlify.com/)** at the custom domain
 **https://bibliothecahebraicaatlantica.judaicadhpenn.org**. Each library's holdings are stored as CSV
 data and rendered as searchable, sortable, mobile-friendly tables using
 [DataTables](https://datatables.net/).
@@ -72,9 +72,14 @@ bundle exec jekyll serve
 
 The live site is built and hosted on **[Netlify](https://www.netlify.com/)** (config in
 [`netlify.toml`](netlify.toml)): every push to `master` runs `bundle exec jekyll build` and publishes
-`_site`. The Ruby version is pinned in [`.ruby-version`](.ruby-version). Jekyll and its plugins are
-pinned via the [`github-pages`](https://github.com/github/pages-gem) gem — refresh occasionally with
-`bundle update github-pages`.
+`_site`. The Ruby version is pinned in [`.ruby-version`](.ruby-version), and Jekyll/plugins via the
+[`github-pages`](https://github.com/github/pages-gem) gem (`bundle update github-pages` to refresh).
+
+GitHub Pages is deliberately **left enabled** on the repo for one reason only: the [`CNAME`](CNAME)
+file makes GitHub issue a 301 redirect from the old `judaicadh.github.io/bibliothecahebraicaatlantica/`
+URLs to the custom domain. The domain's DNS points at Netlify (a `CNAME` record →
+`‹site›.netlify.app`), so Netlify serves the actual content — the same hybrid setup as the
+`tourowill` project.
 
 ### Analytics
 

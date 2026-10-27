@@ -10,8 +10,8 @@
   LANG = "en_US.UTF-8"
   LC_ALL = "en_US.UTF-8"
 
-# 301 old GitHub Pages-style paths (which carried the /bibliothecahebraicaatlantica/
-# prefix) to their clean equivalent now that the site is served at the domain root.
+# Safety net: 301 any old /bibliothecahebraicaatlantica/ prefixed path to its
+# clean equivalent (the site is served at the domain root).
 [[redirects]]
   from = "/bibliothecahebraicaatlantica/*"
   to = "/:splat"
